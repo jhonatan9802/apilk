@@ -85,7 +85,7 @@
           </div>
         </div>
 
-        <div class="col-10 mx-auto my-4">
+        <div class="col-10 mx-auto mt-5">
           <h4 class="txt-purpel">Categorias</h4>
           <div
             class="
@@ -170,8 +170,8 @@
               </div>
             </div>
           </div>
-          <hr />
-          <h4 class="txt-purpel">Marcas destacadas</h4>
+
+          <h4 class="txt-purpel mt-5">Marcas destacadas</h4>
           <div
             class="
               row
@@ -249,8 +249,7 @@
               </div>
             </div>
           </div>
-          <hr />
-          <h4 class="txt-purpel">Un universo lleno de ofertas</h4>
+          <h4 class="txt-purpel mt-5">Un universo lleno de ofertas</h4>
           <div
             class="
               row
@@ -315,6 +314,7 @@
             </div>
           </div>
         </div>
+
         <Footer />
       </div>
     </div>
