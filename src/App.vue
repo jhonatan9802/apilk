@@ -2,202 +2,9 @@
   <div class="container-fluid" id="app">
     <div class="row">
       <div class="col-12">
-        <!--Informacion de contacto-->
-        <div class="row first-info d-none d-md-flex d-lg-flex">
-          <div class="col-md-6 text-left d-flex justify-content-start">
-            <ul>
-              <li>Compras seguras online</li>
-              <li>Pago Contra Entrega</li>
-              <li>Entregas al mismo día</li>
-            </ul>
-          </div>
-          <div class="col-md-6 text-right d-flex justify-content-end">
-            <ul>
-              <li>
-                Llámanos <i class="fas fa-phone-square-alt mx-1"></i> |
-                3009108496
-              </li>
-              <li>
-                Escribenos <i class="fab fa-youtube-square mx-1"></i>
-                <i class="fab fa-facebook-square mx-1"></i>
-                <i class="fab fa-instagram-square mx-1"></i>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--Busqueda-->
-        <div class="row content-search">
-          <div class="col-md-6">
-            <ul>
-              <li class="d-md-none d-lg-none">
-                <div class="navbar navbar-light">
-                  <button
-                    class="navbar-toggler btn-burger"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#main_nav"
-                  >
-                    <span class="navbar-toggler-icon text-white"></span>
-                  </button>
-                </div>
-              </li>
-              <li>
-                <img src="./../src/assets/img/LaikaMascotas.svg" alt="logo" />
-              </li>
-              <li>
-                <form class="d-flex">
-                  <div class="input-group mb-sm-2">
-                    <input
-                      type="search"
-                      class="form-control search"
-                      placeholder="Encuentra lo mejor para tu mascota"
-                    />
-                    <button type="submit" class="input-group-text btn-search">
-                      <i class="fas fa-search"></i>
-                    </button>
-                  </div>
-                </form>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-6"></div>
-        </div>
-        <!--Navegación-->
-        <div class="row">
-          <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg mega-menu navbar-light">
-              <div class="col-12">
-                <div
-                  class="
-                    collapse
-                    navbar-collapse
-                    d-md-flex d-lg-flex
-                    justify-content-evenly
-                  "
-                  id="main_nav"
-                >
-                  <ul class="navbar-nav">
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        data-bs-toggle="dropdown"
-                      >
-                        <img
-                          src="./../src/assets/img/dog_mc.svg"
-                          alt="Compra para Perro"
-                        />
-                        Perro
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 1
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 2
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 3
-                          </a>
-                        </li>
-                        <li class="has-megasubmenu">
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 4 &raquo;
-                          </a>
-                          <div class="megasubmenu dropdown-menu">
-                            <div class="row">
-                              <div class="col-6">
-                                <h6 class="title">Title Menu One</h6>
-                                <ul class="list-unstyled">
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                </ul>
-                              </div>
-                              <!-- end col-3 -->
-                              <div class="col-6">
-                                <h6 class="title">Title Menu Two</h6>
-                                <ul class="list-unstyled">
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                  <li><a href="#">Custom Menu</a></li>
-                                </ul>
-                              </div>
-                              <!-- end col-3 -->
-                            </div>
-                            <!-- end row -->
-                          </div>
-                        </li>
-                        <li class="has-megasubmenu">
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 5 &raquo;
-                          </a>
-                          <div class="megasubmenu dropdown-menu">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis
-                            nostrud exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore
-                            eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia
-                            deserunt mollit anim id est laborum. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.
-                          </div>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">
-                            Dropdown item 6
-                          </a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"
-                        ><img
-                          src="./../src/assets/img/cat_mc_s.svg"
-                          alt="Compra para Gato"
-                        />
-                        Gato
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"> Ofertas </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"> Servicios </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#"> Blog </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">
-                        <img
-                          src="./../src/assets/img/membership_logo.png"
-                          alt="membership"
-                        />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <!-- navbar-collapse.// -->
-              </div>
-              <!-- container-fluid.// -->
-            </nav>
-          </div>
-        </div>
+        <Main />
+        <Navegacion />
+
         <div class="row">
           <div class="col-md-10 col-sm-12 mt-5 mx-auto">
             <div
@@ -280,12 +87,23 @@
 
         <div class="col-10 mx-auto my-4">
           <h4 class="txt-purpel">Categorias</h4>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6">
+          <div
+            class="
+              row
+              row-cols-1
+              row-cols-sm-2
+              row-cols-md-2
+              row-cols-lg-6
+              row-cols-xl-6
+            "
+          >
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6"><i class="fas fa-bone fa-3x"></i></div>
+                    <div class="col-6 txt-purpel">
+                      <i class="fas fa-bone fa-3x"></i>
+                    </div>
                     <div class="col-6">Snacks</div>
                   </div>
                 </div>
@@ -293,9 +111,11 @@
             </div>
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6"><i class="fas fa-home fa-3x"></i></div>
+                    <div class="col-6 txt-purpel">
+                      <i class="fas fa-home fa-3x"></i>
+                    </div>
                     <div class="col-6">Accesorios</div>
                   </div>
                 </div>
@@ -303,9 +123,11 @@
             </div>
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6"><i class="fas fa-cat fa-3x"></i></div>
+                    <div class="col-6 txt-purpel">
+                      <i class="fas fa-cat fa-3x"></i>
+                    </div>
                     <div class="col-6">Higiene</div>
                   </div>
                 </div>
@@ -313,9 +135,9 @@
             </div>
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6">
+                    <div class="col-6 txt-purpel">
                       <i class="fas fa-cookie-bite fa-3x"></i>
                     </div>
                     <div class="col-6">Alimento</div>
@@ -325,9 +147,11 @@
             </div>
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6"><i class="fas fa-paw fa-3x"></i></div>
+                    <div class="col-6 txt-purpel">
+                      <i class="fas fa-paw fa-3x"></i>
+                    </div>
                     <div class="col-6">Juguetes</div>
                   </div>
                 </div>
@@ -335,9 +159,9 @@
             </div>
             <div class="col my-2">
               <div class="card">
-                <div class="card-body">
+                <div class="card-body shadow-sm">
                   <div class="row align-items-center text-center txt-gray">
-                    <div class="col-6">
+                    <div class="col-6 txt-purpel">
                       <i class="fas fa-capsules fa-3x"></i>
                     </div>
                     <div class="col-6">Farmapet</div>
@@ -348,7 +172,16 @@
           </div>
           <hr />
           <h4 class="txt-purpel">Marcas destacadas</h4>
-          <div class="row row-cols-2 row-cols-sm-2 row-cols-md-6">
+          <div
+            class="
+              row
+              row-cols-2
+              row-cols-sm-2
+              row-cols-md-3
+              row-cols-lg-6
+              row-cols-xl-6
+            "
+          >
             <div class="col">
               <div class="card-body">
                 <div class="row d-flex justify-content-center">
@@ -418,8 +251,17 @@
           </div>
           <hr />
           <h4 class="txt-purpel">Un universo lleno de ofertas</h4>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4">
-            <div class="col-md-2 mt-4" v-for="art in articulos" :key="art.id">
+          <div
+            class="
+              row
+              row-cols-1
+              row-cols-sm-2
+              row-cols-md-3
+              row-cols-lg-4
+              row-cols-xl-4
+            "
+          >
+            <div class="col mt-4" v-for="art in articulos" :key="art.id">
               <div class="card p-4">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="mt-2">
@@ -429,7 +271,7 @@
                         width="200"
                       />
                     </div>
-                    <h5>{{ art.name }}</h5>
+                    <h5>{{ art.nombre }}</h5>
                     <div class="mt-3">
                       <div class="d-flex flex-row">
                         <div>
@@ -443,12 +285,14 @@
                 <div
                   class="d-flex justify-content-between align-items-center mt-2"
                 >
-                  <span class="text-danger">$ 13.400</span>
-                  <span class="txt-gray"><small>Antes $ 14.400</small></span>
+                  <span class="text-danger">$ {{ art.precio }}</span>
+                  <span class="txt-gray"
+                    ><small>Antes $ {{ art.precio_antes }}</small></span
+                  >
                 </div>
                 <hr />
                 <div class="d-flex justify-content-between align-items-start">
-                  <span class="text-danger">$ 13.400</span>
+                  <span class="text-danger">$ {{ art.precio_member }}</span>
                   <div class="text-center">
                     <img
                       src="./../src/assets/img/laikamemeber.svg"
@@ -461,7 +305,7 @@
                 <div class="d-flex justify-content-center my-3">
                   <span
                     class="text-danger border border-1 p-2 rounded-2 text-black"
-                    >15GR</span
+                    >{{ art.gramos }} GR</span
                   >
                 </div>
                 <button class="btn btn-add-to-cart mt-2 text-white">
@@ -471,6 +315,7 @@
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   </div>
@@ -480,10 +325,14 @@
 import axios from "axios";
 import { Component, Vue } from "vue-property-decorator";
 import Main from "./components/Main.vue";
+import Navegacion from "./components/Navegacion.vue";
+import Footer from "./components/Footer.vue";
 
 @Component({
   components: {
     Main,
+    Navegacion,
+    Footer,
   },
   data() {
     return {
@@ -495,14 +344,14 @@ import Main from "./components/Main.vue";
   },
   methods: {
     getArticulos() {
-      const url = "https://jsonplaceholder.typicode.com/users";
+      const url = "http://127.0.0.1:8000/api/articulos";
       axios
         .get(url)
         .then((res) => {
           console.log(res);
           this.articulos = res.data;
         })
-        .catch((e) => console.log(e));
+        .catch((err) => console.log(err));
     },
   },
 })
@@ -523,6 +372,7 @@ export default class App extends Vue {}
   --semi_black: #212529;
   --very-light-gray: #c7c7c7;
   --gray: #616161;
+  --yellow-claw: #f4bc0b;
   --sm: 14px;
   --md: 16px;
   --lg: 18px;
@@ -533,8 +383,6 @@ export default class App extends Vue {}
 body {
   margin: 0;
   padding: 0;
-  border: 0;
-  outline: 0;
   box-sizing: border-box;
   font-family: var(--Causten-SemiBold);
 }
@@ -545,6 +393,11 @@ body {
 
 .txt-purpel {
   color: var(--bg_purpel);
+  --semi_black: #212529;
+}
+
+.txt-s-black {
+  color: var(--semi_black);
 }
 
 .first-info {
@@ -585,27 +438,26 @@ body {
   margin: 0 20px;
 }
 
-.content-search form .search {
-  width: 490px;
+.content-search form div {
+  width: 40vh;
 }
 
-/*.navbar-shoping-cart{
-         position: relative;
-         }
-         .navbar-shoping-cart div{
-         width: 18px;
-         height: 18px;
-         background-color: var(--rusian-violet);
-         border-radius: 50%;
-         font-size: var(--sm);
-         font-weight: bold;
-         position: absolute;
-         top: -8px;
-         right: -6px;
-         display: flex;
-         justify-content: center;
-         color: var(--white);
-         }*/
+.navbar-shoping-cart {
+  position: relative;
+}
+.cart small {
+  width: 18px;
+  height: 18px;
+  background-color: var(--bg_ultragray);
+  border-radius: 50%;
+  font-size: var(--sm);
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  right: -7px;
+  display: flex;
+  justify-content: center;
+}
 .mega-menu {
   color: var(--bg_purpel);
   font-size: var(--md);
@@ -614,12 +466,12 @@ body {
   -moz-box-shadow: 1px 3px 9px -1px rgba(0, 0, 0, 0.09);
 }
 
-#main_nav ul {
-  place-items: center;
+.mega-menu .dropdown-menu {
+  width: 250px;
 }
 
-#main_nav ul .nav-item {
-  margin: 4px 80px;
+.menu-icon {
+  margin-right: 16px;
 }
 
 .mega-menu .nav-link {
@@ -635,9 +487,35 @@ body {
 .mega-menu .sub-menu a li i {
   margin-top: 8px;
 }
+
 .btn-add-to-cart {
   background-color: var(--bg_purpel) !important;
   color: var(--bg_white);
+}
+
+.btn-member {
+  background-color: var(--yellow-claw);
+  color: var(--bg_purpel);
+  text-transform: uppercase;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+.btn-member:hover {
+  box-shadow: 1px 3px 9px -1px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 1px 3px 9px -1px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 1px 3px 9px -1px rgba(0, 0, 0, 0.16);
+}
+
+.btn-accordion {
+  color: var(--bg_purpel) !important;
+}
+.btn-accordion:not(.collapsed) {
+  background-color: var(--bg_white) !important;
+}
+.accordion-item {
+  border: none !important;
 }
 
 /* ============ mobile ============ */
@@ -670,6 +548,26 @@ body {
     width: 300px;
   }
 
+  .content-search ul li:nth-child(4) {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    margin-top: 44px;
+  }
+  .content-search .account li span {
+    display: none;
+  }
+  .content-search .account .user {
+    position: relative;
+    left: 205px;
+    bottom: 90px;
+  }
+  .content-search .account .cart {
+    position: relative;
+    left: 10px;
+    bottom: 90px;
+  }
+
   .content-search .btn-burger {
     background-color: var(--bg_white);
   }
@@ -682,17 +580,13 @@ body {
     box-shadow: inherit;
   }
 
-  #main_nav ul .nav-item {
+  .mega-menu ul .nav-item {
     margin: 4px 10px;
   }
 
-  #main_nav ul {
+  .mega-menu ul {
     place-items: start;
   }
-}
-
-.megasubmenu {
-  padding: 1rem;
 }
 
 /* ============ desktop view ============ */
