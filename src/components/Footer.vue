@@ -339,6 +339,7 @@
         justify-content-center justify-content-lg-center
         p-4
         border-bottom
+        bg-light
       "
     >
       <div>
